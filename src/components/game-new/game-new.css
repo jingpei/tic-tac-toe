@@ -1,0 +1,23 @@
+.start-game {
+  text-align: center;
+  color: black;
+  margin-top: 20px;
+}
+
+.start-game input {
+  height: 40px;
+  width: 50px;
+  padding: 2px 10px;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: black;
+}
+
+.start-game button {
+  margin-left: 10px;
+}
+
+form {
+  display: inline-block;
+}
