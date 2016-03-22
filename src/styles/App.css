@@ -1,0 +1,49 @@
+@import url('../components/game-grid/game-grid.css');
+@import url('../components/game-new/game-new.css');
+@import url('../components/game-restart/game-restart.css');
+@import url('../components/game-square/game-square.css');
+
+/* Base Application Styles */
+body {
+  color: #fff;
+}
+
+.index img {
+  margin: 40px auto;
+  border-radius: 4px;
+  background: #fff;
+  display: block;
+}
+
+.index .notice {
+  margin: 20px auto;
+  padding: 15px 0;
+  text-align: center;
+  border: 1px solid #000;
+  border-width: 1px 0;
+  background: #666;
+}
+
+button {
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+  background-color: white;
+  color: black;
+  height: 40px;
+  width: 100px;
+}
+
+button:hover {
+  color: white;
+  background-color: #41C4B1;
+}
+
+button:focus {
+  outline: none;
+}
+
+.games {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
