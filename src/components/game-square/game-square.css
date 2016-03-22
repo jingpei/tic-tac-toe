@@ -1,0 +1,25 @@
+td {
+  text-align: center;
+  color: #5F5F5F;
+  font-size: 60px;
+  width: 100px;
+  height: 100px;
+}
+
+td:not(:first-child):not(:last-child) {
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+}
+
+td:hover {
+  cursor: pointer;
+  background-color: rgba(14,243,0,0.06);
+}
+
+.fa-times {
+  color: #4183C4;
+}
+
+.fa-circle-o {
+  color: #FFC542;
+}
