@@ -62,6 +62,7 @@
   "dependencies": {
     "autoprefixer": "^6.3.4",
     "core-js": "^2.0.0",
+    "lodash": "^4.6.1",
     "normalize.css": "^3.0.3",
     "precss": "^1.4.0",
     "react": "^0.14.0",
